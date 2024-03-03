@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section styles{
+    <style>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" / >
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap.min.css" rel="stylesheet" / >
+    </style>
+
+}
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table table-bordered table-striped" id="tblStudent">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">FirstName</th>
+                    <th scope="col">LastName</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">CompanyId</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">BillId</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
